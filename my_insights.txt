@@ -1,0 +1,12 @@
+1. user model creation using typescript:
+	next js render and re render when only we request data so we need to check whether mongoose model already exist in the database or not. 
+2. zod schema validation:
+	schema validation is done using zod object because we can validate more than one instance at a time.
+3. email signup process
+	they are two steps to check : new users, existing unverified users with new passoword and verification code
+	
+4. react-email for email components which are written in email folder
+
+5. resend is used to send emails to the logged in users.
+
+?: optional in typescript
